@@ -1,0 +1,55 @@
+
+Building Linux applications requires some tools that are not included
+in the Flutter snap and need to be installed on your system:
+
+  - clang
+  - cmake
+  - ninja
+  - pkg-config
+  - GTK 3 development files
+
+To install them, run:
+
+  sudo apt install clang cmake ninja-build g++ pkg-config libgtk-3-dev
+
+00:00 +0: loading /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/controllers/game_controller_test.dart
+00:00 +0: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/controllers/game_controller_test.dart: starts in playing state with an empty path
+00:00 +1: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/controllers/game_controller_test.dart: valid movements extend the path
+00:00 +2: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/controllers/game_controller_test.dart: invalid movements are rejected and counted as mistakes
+00:00 +3: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/controllers/game_controller_test.dart: undo removes the last cell
+00:00 +4: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/controllers/game_controller_test.dart: dragging back to the previous cell undoes the move
+00:00 +5: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/controllers/game_controller_test.dart: restart clears the path
+00:00 +6: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/controllers/game_controller_test.dart: hints come from the repository and are counted
+00:00 +7: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/controllers/game_controller_test.dart: completing the board submits it and shows the server result
+00:00 +8: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/domain/zip_rules_test.dart: ZipRules the first move must be the cell with number 1
+00:00 +9: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/domain/zip_rules_test.dart: ZipRules horizontal and vertical moves are allowed
+00:00 +10: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/domain/zip_rules_test.dart: ZipRules diagonal moves and jumps are rejected
+00:00 +11: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/domain/zip_rules_test.dart: ZipRules a cell cannot be visited twice
+00:00 +12: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/domain/zip_rules_test.dart: ZipRules numbers must be connected in ascending order
+00:00 +13: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/domain/zip_rules_test.dart: ZipRules the last number cannot be reached before filling the board
+00:00 +14: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/domain/zip_rules_test.dart: ZipRules detects a complete solution
+00:00 +15: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/domain/zip_rules_test.dart: ZipRules computes the next checkpoint
+00:06 +16: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/widgets/game_page_test.dart: renders the 6x6 board with its numbers
+00:06 +16: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/integration/api_flow_test.dart: Flutter retrieves a level, plays it and gets the backend result
+  Skip: Usa --dart-define=INTEGRATION=true con el backend encendido
+00:06 +16 ~1: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/widgets/game_page_test.dart: renders the 6x6 board with its numbers
+00:07 +17 ~1: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/widgets/game_page_test.dart: tapping cells shows valid and invalid feedback
+00:08 +18 ~1: /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/widgets/game_page_test.dart: completing the puzzle shows the result returned by the backend
+00:09 +19 ~1: All tests passed!
+
+Building Linux applications requires some tools that are not included
+in the Flutter snap and need to be installed on your system:
+
+  - clang
+  - cmake
+  - ninja
+  - pkg-config
+  - GTK 3 development files
+
+To install them, run:
+
+  sudo apt install clang cmake ninja-build g++ pkg-config libgtk-3-dev
+
+00:00 +0: loading /home/alexander-tinoco/Documentos/FlutterProjects/zip_game/test/integration/api_flow_test.dart
+00:00 +0: Flutter retrieves a level, plays it and gets the backend result
+00:00 +1: All tests passed!
