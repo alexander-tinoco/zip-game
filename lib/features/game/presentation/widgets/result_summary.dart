@@ -19,6 +19,7 @@ class ResultSummary extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final text = Theme.of(context).textTheme;
+    final isDark = Theme.of(context).brightness == Brightness.dark;
     final b = result.breakdown;
     final changeText = switch (result.difficultyChange) {
       'increase' => '¡Subes de dificultad! Próximo reto: ${difficultyLabel(result.recommendedDifficulty)}',
@@ -28,7 +29,7 @@ class ResultSummary extends StatelessWidget {
 
     return Card(
       key: const Key('result_summary'),
-      color: Colors.green.shade50,
+      color: isDark ? Colors.green.shade900.withValues(alpha: 0.35) : Colors.green.shade50,
       child: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(mainAxisSize: MainAxisSize.min, children: [
